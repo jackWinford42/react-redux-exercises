@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Generate a meme:</h1>
+    <form action="" id="memeForm">
+        <div class="formContainer">
+            <label for="todo">Image Url:
+                <input type="text" id="imageURL" name="todo">
+            </label>
+        </div>
+        <div class="formContainer">
+            <label for="todo">Top text:
+                <input type="text" id="top" name="todo">
+            </label>     
+        </div>
+        <div class="formContainer">
+            <label for="todo">Bottom text:
+                <input type="text" id="bottom" name="todo">
+            </label>     
+        </div>
+        <div class="formContainer">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <div id="display">
+
+    </div>
+</body>
+<script src="https://unpkg.com/redux"></script>
+<script src="reduxSetup.js"></script>
+<script src="script.js"></script>
+</html>

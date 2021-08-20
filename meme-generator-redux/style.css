@@ -1,0 +1,38 @@
+h1 {
+    font-size: 3em;
+}
+#memeForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 3em;
+}
+.bottomText {
+    
+}
+#memeForm .formContainer{
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.formContainer label #imageURL {
+    width: 75%;
+}
+label #top {
+    width: 30%;
+}
+label #bottom {
+    width: 30%;
+}
+input[type=submit] {
+    background-color: aquamarine;
+    border: none;
+    width: 25%;
+    height: 3em;
+    font-size: 1.5em;
+}
+#display {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
